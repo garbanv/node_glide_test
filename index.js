@@ -7,8 +7,7 @@ require('dotenv').config()
 
 app.get("/", async (req,res) =>{
     
-    console.log("req.body",req.body)
-    console.log("req.params",req.query)
+    console.log("req",req)
     res.send({'glide':'funciona'})
 })
 
